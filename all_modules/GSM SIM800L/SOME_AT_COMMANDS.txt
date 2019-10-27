@@ -1,0 +1,10 @@
+AT
+ATI - module info
+AT+GSN - show IMEI
+AT+IPR? - show port speed
+AT+CSQ - signal quality, 0..31 good, if 99 - signal is lost
+AT+COPS? - operator info
+AT+CREG? – to get network registration information. stat=1 means you are registered with home network
+AT+COPS? – returns currently registered operator details
+AT+COPS=? – returns all the operators available
+AT+CPIN? - This check is SIM unlocked. (“+ CPIN: READY” That means it is unlocked.)
